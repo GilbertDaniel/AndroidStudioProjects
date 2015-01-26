@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/HelloAndroid.iml" filepath="$PROJECT_DIR$/app/HelloAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activity-lifecycle.iml" filepath="$PROJECT_DIR$/activity-lifecycle.iml" />
+    </modules>
+  </component>
+</project>
+
