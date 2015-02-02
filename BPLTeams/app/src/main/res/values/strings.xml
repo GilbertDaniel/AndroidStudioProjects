@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BPL Teams</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="random_button">Pick Random</string>
+    <string name="edit_text_hint">Type Something</string>
+
+    <string-array name="football_clubs">
+        <item>Pick a Team</item>
+        <item>Arsenal</item>
+        <item>Chelsea</item>
+        <item>Everton</item>
+        <item>Tottenham</item>
+    </string-array>
+
+</resources>

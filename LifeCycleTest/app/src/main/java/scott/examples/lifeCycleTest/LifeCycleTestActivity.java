@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -28,7 +29,7 @@ public class LifeCycleTestActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		// activity being created
 		super.onCreate(savedInstanceState);
-		
+
 		Log.d(TAG, "in onCreate Method");
 		if(savedInstanceState != null) {
 			showState = savedInstanceState.getString(TAG);
@@ -51,6 +52,11 @@ public class LifeCycleTestActivity extends Activity {
 		//		setContentView(tv);
 		Log.d(TAG, "In onCreate STILL. Bundle parameter: " + savedInstanceState);
 	}
+
+    private void changeButtonPadding() {
+        Button b = (Button) findViewById(R.id.clickForActivityButton);
+        b.setPadding(40, 40, 30, 10);
+    }
 
 	private void handleOnResumeCalls() {
 		onResumeCalls++;
@@ -112,6 +118,7 @@ public class LifeCycleTestActivity extends Activity {
 	}
 
 	public void getName(View v) {
+        changeButtonPadding();
 		Intent intent = new Intent(this, NameGetter.class);
 		startActivityForResult(intent, GET_NAME);
 	}
