@@ -154,7 +154,7 @@ public class CountryActivity extends ListActivity {
             // old value of safe in the ArrayList!!!
             holder.safe.setChecked(countriesSafeStatus.get(countries.get(position)));
 
-            // if recycled fix our model. (MUST BE A BETTER WAY)
+            // if recycled fix our model. (MUST BE A BETTER WAY!)
             if(convertView != null) {
                 countriesSafeStatus.put(oldCountry, statusOfOldView);
             }
