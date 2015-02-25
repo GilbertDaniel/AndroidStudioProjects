@@ -2,6 +2,7 @@
 /MyApplication
 /MyFirstApp
 /Tutorial1
+/*Tutoral
 /*_scottm
 t*.zip
 **/.gradle
@@ -10,3 +11,5 @@ t*.zip
 **/.idea/libraries
 **/.DS_Store
 **/build
+/GoogleMapsAPI_2_Demo
+/maps
