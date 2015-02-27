@@ -11,5 +11,4 @@ t*.zip
 **/.idea/libraries
 **/.DS_Store
 **/build
-/GoogleMapsAPI_2_Demo
 /maps
